@@ -55,8 +55,8 @@ ball.shape("circle")
 ball.color("red")
 ball.penup()
 ball.goto(5,5)
-ballxdirection=0.3
-ballydirection=0.3
+ballxdirection=0.2
+ballydirection=0.2
 # --------------------------------------------------------------- #
 
 # Need to create pen object
