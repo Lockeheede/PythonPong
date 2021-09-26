@@ -149,7 +149,7 @@ while True:
         ball.setx(340)
         ballxdirection=ballxdirection*-1
 
-    if (ball.xcor()<-340) and (ball.xcor()>-350)and(ball.ycor()<leftpaddle.ycor()+40) and ball.ycor() > leftpaddle.ycor()-30:
+    if (ball.xcor()<-340) and (ball.xcor()>-350)and(ball.ycor()<leftpaddle.ycor()+40) and ball.ycor() > leftpaddle.ycor()-40:
         ball.setx(-340)
         ballxdirection=ballxdirection*-1
 
